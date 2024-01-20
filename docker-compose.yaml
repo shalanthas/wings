@@ -2,7 +2,7 @@ version: '3'
 
 services:
   doom-app:
-    image: callumhoughton22/doom-in-docker:0.1
+    image: shalanthas/wings:0.1
     restart: always
     ports: 
-        - 8080:8080
+        - 8980:8080
